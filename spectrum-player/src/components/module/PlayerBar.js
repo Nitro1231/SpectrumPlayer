@@ -1,11 +1,9 @@
-import React from 'react';
+import React from 'react'
 
-function PlayerBar() {
-  return (
-    <div class='playerbar'>
-        dd
-    </div>
-  );
+class PlayerBar extends React.Component {
+  render() {
+    return <div class='playerbar'>dd</div>
+  }
 }
 
-export default PlayerBar;
+export default PlayerBar

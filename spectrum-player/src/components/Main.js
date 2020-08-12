@@ -1,14 +1,19 @@
-import React from 'react';
-import SideNav from './module/SideNav.js'
+import React from 'react'
 import PlayerBar from './module/PlayerBar.js'
+import SideBar from './module/SideBar.js'
 
-function Main() {
-  return (
-    <>
-      <SideNav />
-      <PlayerBar />
-    </>
-  );
+class Main extends React.Component {
+  //https://bashooka.com/inspiration/music-video-player-ui-designs/
+  //https://www.npmjs.com/package/react-player
+
+  render() {
+    return (
+      <>
+        <SideBar />
+        <PlayerBar />
+      </>
+    )
+  }
 }
 
-export default Main;
+export default Main
